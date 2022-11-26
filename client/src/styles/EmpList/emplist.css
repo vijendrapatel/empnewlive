@@ -1,0 +1,98 @@
+.emp_table{
+display: flex;
+flex-direction: column;
+gap: 20px;
+margin: 20px 0;
+}
+.eOtTIX{
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+.eBYPLT{
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+.action_btn{
+    display: flex;
+    gap: 8px;
+}
+.edit_btn {
+    border-radius: 4px;
+    padding: 4px;
+    width: 78px;
+    height: 38px;
+    
+}
+.del_btn {
+    border-radius: 4px;
+    padding: 4px;
+    width: 78px;
+    height: 38px;
+   
+}
+.employee_table {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* margin: 20px 0; */
+  }
+/* ----------addemp--------- */
+.label_text{
+    font-size: 15px;
+}
+.dept{
+    width: 100%;
+    height: 40px;
+}
+.eye_icon_btn{
+display: flex;
+}
+.detail_side_heading{
+    display: flex;
+    gap:2px;
+}
+.detail_side_heading:hover{
+    color: aquamarine;
+}
+.status_check{
+    display: flex;
+    gap:4px;
+    align-items: center;
+}
+.form-control.checkbox_status {
+    width: 0 !important;
+  }
+  .firsticonn{
+    background: none;
+    border: none;
+  }
+  .add_emp_inputs {
+    padding: 0 25px;
+  }
+  .jfrgbA{
+    padding-left: 8px !important;
+    padding-right: 0 !important;
+  }
+  .jzGaAN{
+    padding-left: 8px !important;
+    padding-right: 0 !important;
+  }
+  /* --------documentupload--------- */
+  .image_upload_box {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 13px;
+  }
+  .image_input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .kOxjhz{
+    height: 41px !important;
+  }
+  .cwaVRT{
+    height: 41px !important;
+
+  }

@@ -1,0 +1,168 @@
+.profile_view {
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+}
+.profile_view:hover {
+    -webkit-box-shadow: 0 14px 12px 0 rgba(0,0,0,0.17),0 20px 40px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 14px 12px 0 rgba(0,0,0,0.17),0 20px 40px 0 rgba(0,0,0,0.3);    
+}
+.well.profile_view {
+    padding: 10px 0 0;
+}
+.well_profile_upper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.well.profile_view .divider {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.well.profile_view .ratings {
+    margin-bottom: 0;
+}
+
+.pagination.pagination-split li {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.pagination.pagination-split li a {
+    border-radius: 4px;
+    color: #768399;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.well.profile_view {
+    background: #fff;
+    padding: 20px;
+}
+
+.well.profile_view .bottom {
+    margin-top: -20px;
+    background: #F2F5F7;
+    padding: 9px 0;
+    border-top: 1px solid #E6E9ED;
+}
+
+.well.profile_view .left {
+    margin-top: 20px;
+}
+
+.well.profile_view .left p {
+    margin-bottom: 3px;
+}
+
+.well.profile_view .right {
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.well.profile_view .img-circle {
+    border: 1px solid #E6E9ED;
+    padding: 2px;
+    border-radius: 50%;
+    max-width: 120px;
+}
+
+.well.profile_view h2 {
+    margin: 5px 0;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.well.profile_view .ratings {
+    text-align: left;
+    font-size: 16px;
+}
+
+.well.profile_view .brief {
+    margin: 0;
+    font-weight: 300;
+}
+
+.profile_left {
+    background: white;
+}
+.attendancestaus{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.attendancestaus .statusbutton{
+border-radius: 50%;
+padding: 10px;
+width: 10%;
+}
+
+.attendancehistory_list .monthname_sort{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 32px;
+    flex-direction: row;
+    width: auto;
+    margin: auto;
+}
+.attendancehistory_list  .monthname_sort .monthname_text{
+    font-size: 32px;
+
+}
+/* table */
+.dashboard_rightside .sc-dkzDqf.gZWIKX.rdt_TableHeadRow {
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    font-family: unset;
+}
+.dashboard_rightside .sc-hHLeRK.gFYXSL.rdt_TableBody {
+    color: white;
+    font-size: 19px;
+    background-color: black;
+    font-family: unset;
+}
+.dropdown_detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.dropdown_detail .dropdown_personaldet{
+    display: flex;
+    /* gap: 5px; */
+    width: 100%;
+    padding: 0 10px;
+}
+.dropdown_detail .dropdown_personaldet .datastaffname {
+    max-width: 72px;
+}
+.dropdown_detail .dropdown_personaldetail{
+    display: flex;
+    gap: 12px;
+    /* justify-content: space-between; */
+    width: 100%;
+    padding: 0 10px;
+}
+.dropdown_detail .dropdown_personaldetail .datastaffname{
+    max-width: 72px;
+}
+/* new */
+
+.attendancehistory_list .dailyattendance_table_box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.attendancehistory_list{
+    display: flex;
+    flex-direction: column;
+}

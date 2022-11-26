@@ -1,0 +1,416 @@
+.summary_box{
+    display: flex;
+    justify-content: space-around;
+}
+.summary_box .employee_labeltext{
+font-size: 25px;
+}
+.summary_body.card-body {
+    text-align: center;
+    font-size: 24px;
+}
+.summary_body.card-body .employee_number{
+font-size: 40px;
+}
+
+
+
+.dailyattendance_table .attendancesection_heading {
+    font-size: 31px;
+}
+.search_section_top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 1px solid black;
+    padding: 9px 0;
+}
+.search_section_top .search_heading {
+    font-size: 30px;
+}
+
+.attendance_pagesearch_section .search_section_box .search_section_box_input{
+display: flex;
+float: right;
+}
+.attendance_pagesearch_section .search_section_box input.form-control.form-control-dark.w-50.search_input_type {
+    height: 32px;
+    width: 200px !important;
+    border-radius: 3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #e5e5e5;
+    padding: 0 32px 0 16px;
+}
+/* table */
+.dailyattendance_table {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.dailyattendance_table .dailyattendance_table_box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+    font-size: 15px;
+}
+.table{
+    padding: 0px !important;
+}
+
+.dailyattendance_table .dailyattendance_table_box  .monthname_sort {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 32px;
+    flex-direction: row;
+    width: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+.dailyattendance_table .dailyattendance_table_box .monthname_sort .monthname_text{
+    font-size: 32px;
+
+}
+.dailyattendance_table .sc-dkzDqf.gZWIKX.rdt_TableHeadRow {
+  color: white;
+  font-size: 19px;
+  background-color: black;
+  font-family: unset;
+}
+
+/*  */
+
+.radius-10 {
+    border-radius: 10px !important;
+}
+
+.border-info {
+    border-left: 5px solid  #0dcaf0 !important;
+}
+.border-danger {
+    border-left: 5px solid  #fd3550 !important;
+}
+.border-success {
+    border-left: 5px solid  #15ca20 !important;
+}
+.border-warning {
+    border-left: 5px solid  #ffc107 !important;
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.bg-gradient-scooter {
+    background: #17ead9;
+    background: -webkit-linear-gradient( 
+45deg
+ , #17ead9, #6078ea)!important;
+    background: linear-gradient( 
+45deg
+ , #17ead9, #6078ea)!important;
+}
+.widgets-icons-2 {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ededed;
+    font-size: 27px;
+    border-radius: 10px;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.text-white {
+    color: #fff!important;
+}
+.ms-auto {
+    margin-left: auto!important;
+}
+.bg-gradient-bloody {
+    background: #f54ea2;
+    background: -webkit-linear-gradient( 
+45deg
+ , #f54ea2, #ff7676)!important;
+    background: linear-gradient( 
+45deg
+ , #f54ea2, #ff7676)!important;
+}
+
+.bg-gradient-ohhappiness {
+    background: #00b09b;
+    background: -webkit-linear-gradient( 
+45deg
+ , #00b09b, #96c93d)!important;
+    background: linear-gradient( 
+45deg
+ , #00b09b, #96c93d)!important;
+}
+
+.bg-gradient-blooker {
+    background: #ffdf40;
+    background: -webkit-linear-gradient( 
+45deg
+ , #ffdf40, #ff8359)!important;
+    background: linear-gradient( 
+45deg
+ , #ffdf40, #ff8359)!important;
+}
+
+
+
+
+/* end */
+
+/* newtable */
+/* .dailyattendace_table tr:hover
+{
+    color: rgba(0,0,0,0.87);
+    background-color: #EEEEEE;
+    
+} */
+.dailyattendace_table th:last-child {
+    width: unset !important;
+}
+.dailyattendace_table .dailyattendace_tbody .leavestatusdropdown select {
+   width: 28px;
+appearance: none;
+}
+.dailyattendace_table .dailyattendace_tbody .employeenametrow{
+overflow: hidden;
+}
+
+.dailyattendace_table .dailyattendace_thead .employeenametrow {
+    width: 109px;
+    white-space: nowrap;
+}
+.dailyattendance_table .dailyattendance_table_box .tableandsearch{
+display: flex;
+flex-direction: column;
+gap: 5px;
+margin-top: 10px;
+}
+.table.table-striped.dailyattendace_table .dailyattendace_thead .daydin {
+    margin: 0;
+}
+/* LEave section */
+
+.search_section_top{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 20px;
+display: -webkit-inline-box;
+}
+.search_section_top .LeaveFullForm_section{
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+.search_section_top .LeaveFullForm_section .LEaveheading{
+    font-weight: 600;
+}
+.search_section_top .LeaveFullForm_section .LEaveFullName{
+    
+}
+.search_section_top .LeaveFullForm_section  .LEavedot_red{
+    font-size: 12px;
+}
+.dailyattendace_table .dailyattendace_tbody .sundaymonth{
+color: #ffffff;
+border: 1px solid #6CC417;
+background: #6CC417;
+pointer-events: none;
+}
+.dailyattendace_table .dailyattendace_tbody .holimonth{
+    color: #ffffff;
+    border: 1px solid #FFA500;
+    background: #FFA500;
+    pointer-events: none; 
+}
+.att_btn {
+    width: 163px;
+    height: 45px;
+    margin-right: 25px;
+    border-radius: 10px !important;
+    background: linear-gradient(to bottom, rgba(39,170,225,.8), rgba(28,117,188,.8));
+  }
+  .attendance_pagesearch_section .search_section_box input.form-control.form-control-dark.w-50.search_input_type{
+    height: 41px !important;
+  }
+  .hnULYo{
+    height: 41px !important;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* detailpage css */
+
+.attendancesection_heading{
+    font-size: 31px;
+}
+.table-responsive  td{
+/* font-size: 20px; */
+}
+.profileimg_month{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+  gap: 20px;
+  }
+  .profileimg_month .statusbox{
+display: flex;
+align-items: center;
+gap: 10px;
+  }
+  .profileimg_month .statusbox .greendoticon{
+   font-size: 28px;
+   color:green;
+      }
+      .profileimg_month .statusbox .reddoticon{
+        font-size: 28px;
+        color:red;
+           }
+.profileimg_month .profileimg{
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 10px;
+  width: 300px;
+      height: 300px;
+}
+.inf-content{
+  border:1px solid #DDDDDD;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}			                                                      
+.attendance_main_section_box .monthname_sort{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-size: 25px;
+    flex-direction: row;
+    width: auto;
+}
+.attendance_main_section_box .attendance_main_detail_body .monthname_sort .monthname_text{
+    font-size: 30px;
+
+}
+.attendance_main_section_box .attendance_heading_box .attendance_main_detail_body .attendance_month{
+font-size: 20px;
+}
+.col-md-11.attendance_main_section_box {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.attendance_main_section_box .attendance_main_detail_body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+         gap: 10px;
+}
+.mt-3.profilesection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profilesection .employeedetail{
+font-size: 20px;
+}
+.attendancestatus{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.attendancestatus .attendancestatus_dot_green{
+border-radius: 50%;
+padding: 6px;
+    background: green;
+}
+.attendancestatus .attendancestatus_dot_red{
+    border-radius: 50%;
+    padding: 6px;
+    background: red;
+    }
+    .employee_fulldetail{
+padding-bottom: 0 !important;
+    }
+  .employee_fulldetail .employee_single_detail{
+        padding-top: 10px;
+        display: flex;
+        align-items: baseline;
+        border-bottom: 1px solid gray;
+    }
+    .employee_single_detail:last-child{
+        border-bottom: none;
+    }
+.employee_single_detail .detailtext{
+font-size: 25px;
+text-align: left;
+}

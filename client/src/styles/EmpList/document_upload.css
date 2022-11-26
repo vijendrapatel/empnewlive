@@ -1,0 +1,6 @@
+.image_upload_box {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 13px;
+  }
