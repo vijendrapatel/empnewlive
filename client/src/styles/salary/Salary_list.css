@@ -1,0 +1,62 @@
+.filter{
+text-align: center;
+}
+.Search_box{
+    display: flex;
+    width: 50%;
+    gap: 20px;
+    align-items: center;
+}
+/* .emp_profile_img{
+    width: 40px;
+   height: 40px;
+} */
+.emp_profile{
+    width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+.search_btn{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.btn-btn-search {
+    border-radius: 6px;
+    width: 145px;
+    height: 40px;
+    /* background: #ffffff; */
+    /* color: chocolate; */
+  }
+  .salarylistbox_table .monthname_sort{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-size: 25px;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+}
+.salarylistbox_table  .monthname_sort .monthname_text{
+    font-size: 30px;
+}
+.salarylistbox_table  .monthname_sort .attendance_month{
+    font-size: 20px;
+    }
+    .salarydata_table{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px 0;
+    }
+    .jVeafb{
+        font-size: 15px !important;
+    }
+/* ---------salary_history------------- */
+.monthwise_salary{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+}
+

@@ -1,0 +1,23 @@
+.manageLeaves_page .status_response {
+    display: flex;
+    gap: 1px;
+}
+.manageLeaves_page .approve_btn {
+  
+    width: max-content;
+    background: #9DC209;
+    color: #ffffff;
+    border-radius: 15px;
+
+}
+.manageLeaves_page .approved_btn{
+    background: #A70D2A;
+    color: #ffffff;
+  
+    width: max-content;
+    border-radius: 15px;
+
+}
+.bMgaAx{
+    white-space: none !important;
+}
